@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="main/style.css">
+    <title>MaxFitness</title>
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">
+            <a href="#" target="_blank">MaxFitness</a>
+        </div>
+        <ul>
+            <li><a href="#main">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#feedback">Reviews</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button onclick="window.location.href='dashboard.html'">Dashboard</button>
+        <button id="menuButton" onclick="openMenu()">
+            <i class='bx bx-menu'></i>
+        </button>
+    </nav>
+
+    <div class="main" id="main">
+        <div class="left">
+            <h5>Welcome to MaxFitness</h5>
+            <h3>We supply <span>services</span> to help people grow</h3>
+            <p>
+                Here at MaxFitness we are dedicated to helping you reach your goal with less of a struggle.
+            </p>
+            <button onclick="window.location.href='login.html'">Get Started</button>
+        </div>
+        <div class="right">
+            <img src="assets/jacked.png">
+        </div>
+    </div>
+
+    <div class="skills" id="skills">
+        <h5>Our Skills</h5>
+        <h3>What we offer</h3>
+        <div class="skill-items">
+            <div class="item">
+                <div class="icon"><i class='bx bx-directions'></i></div>
+                <h4>Strategy & Direction</h4>
+                <p>
+                    Here at MaxFtiness we are dedicated to creating a healthy plan for your in-order to achive your goal.
+                </p>
+            </div>
+            <div class="item">
+                <div class="icon"><i class='bx bx-bookmark-heart'></i></div>
+                <h4>Branding & Logo</h4>
+                <p>
+                    Elevate your identity with a distinct and memorable brand.
+                </p>                
+            </div>
+            <div class="item">
+                <div class="icon"><i class='bx bxl-figma'></i></i></div>
+                <h4>Professionalism</h4>
+                <p>
+                    Here at MaxFitness we are very professional when it comes to our clients.
+                </p>
+            </div>
+            <div class="item">
+                <div class="icon"><i class='bx bx-code-alt'></i></i></div>
+                <h4>Infalstrucutre</h4>
+                <p>
+                    Our Infalstrucutre is built to help our users achive their goal that they have in mind.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="about" id="about">
+        <div class="left">
+            <img src="assets/1.png">
+        </div>
+        <div class="right">
+            <h5>About</h5>
+            <h3>About Us</h3>
+            <p>
+                MaxFitness was first created in 2016 in the mind to help people achive their fitness goals, 
+                we later expanded from in person training to online services that help people achive their 
+                goals.
+            </p>
+            <p>
+                We plan to bring ways to diet, loose weight, gain muscle, and successfully track it all.
+            </p>
+        </div>
+    </div>
+
+    <div class="feedback" id="feedback">
+        <h5>Clients Reviews</h5>
+        <h3>Customers Feedback</h3>
+        <div class="customers">
+            <div class="item">
+                <div class="rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <p>
+                    MaxFitness saved my life with their custom recipes talored to you, and the helpful dashboard.
+                </p>
+                <div class="user">
+                    <img src="assets/vouch.jpeg">
+                    <div class="info">
+                        <h5>Dianne Russell</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <p>
+                    MaxFitness helped me loose 50 lbs within 2 months! I was so sad and almost gave up as I was seeing no results.
+                </p>
+                <div class="user">
+                    <img src="assets/vouch.jpeg">
+                    <div class="info">
+                        <h5>Kristian Watson</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <p>
+                    MaxFitness helped me gain the muscle and strength I was needing to run in a marathon.
+                </p>
+                <div class="user">
+                    <img src="assets/vouch.jpeg">
+                    <div class="info">
+                        <h5>Kathryn Murphy</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+    <footer>
+        <div class="top">
+            <div class="logo">
+                MaxFitness
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Reviews</a></li>
+            </ul>
+            <div class="social-links">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+            </div>
+        </div>
+        <div class="separator"></div>
+        <div class="bottom">
+            <p>
+                Made By Keldan Rafuse
+            </p>
+            <div class="links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Contact Us</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main/script.js"></script>
+</body>
+
+</html>
